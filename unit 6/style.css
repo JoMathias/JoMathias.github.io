@@ -1,0 +1,30 @@
+#cat {
+  height: 300px;
+}
+
+main {
+  background-color: slategray;
+  color: white;
+}
+
+body {
+  background-image: url("rain.jpg");
+  background-size: cover;
+  list-style-image: url("diamond.png");
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#cat, #borderimg{
+  border-image-slice: 188 216 133 216;
+  border-image-width: 42px 42px 42px 42px;
+  border-image-outset: 20px 30px 20px 30px;
+  border-image-repeat: round round;
+  border-image-source: url("https://webstockreview.net/images/simple-border-png-2.png");
+  border-style: solid;
+  margin: 5%;
+}
