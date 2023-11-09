@@ -1,0 +1,17 @@
+img {
+  display:none;
+}
+
+a::after{
+  content: " (" attr(href) ") ";
+}
+
+#sidebar, #nav, #footer {
+  display: none;
+}
+
+body {
+  font-size: 1.25em;
+  color: black;
+  background-color: white;
+}
