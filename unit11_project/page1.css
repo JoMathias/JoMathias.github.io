@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+#Submit{
+  background:    #15d798;
+  border-radius: 11px;
+  box-shadow:    4px 4px #444444;
+  padding:       20px 45px;
+  color:         #000000;
+  display:       inline-block;
+  font:          normal bold 25px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #0c493b;
+  margin-top: 5px;
+}
+
+

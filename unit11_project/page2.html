@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="page2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Brings users back to homepage -->
+  <a href="index.html">Home</a>
+  <h1>Brochure Form</h1>
+
+  <!-- Form for users to fill out -->
+  <form action="inforecieved.html" method="get">
+    <!-- Asks what brochure they want -->
+    <fieldset id="Brochure">
+      <legend>What brochure do you want?</legend>
+      <input type="radio" id="Brochure1" name="brochure" value="Brochure1">
+      <label for="Brochure1">Brochure 1</label><br>
+      <input type="radio" id="Brochure2" name="brochure" value="Brochure2">
+      <label for="Brochure2">Brochure 2</label><br>
+      <input type="radio" id="Brochure3" name="brochure" value="Brochure3">
+      <label for="Brochure3">Brochure 3</label><br>
+      <input type="radio" id="Brochure4" name="brochure" value="Brochure4">
+      <label for="Brochure4">Brochure 4</label><br>
+      <input type="radio" id="Brochure5" name="brochure" value="Brochure5">
+      <label for="Brochure5">Brochure 5</label><br>
+    </fieldset>
+    <!-- Asks for shipping information -->
+    <fieldset id="Shipping Address">
+        <legend>Shipping Address</legend>
+        <label for="address1">Address Line 1:</label>
+        <input type="text" id="address1" name="address1"><br><br>
+        <label for="address2">Address Line 2:</label>
+        <input type="text" id="address2" name="address2"><br><br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br><br>
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br><br>
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip"><br><br>
+      </fieldset>
+      <input id="Submit" type="submit" value="Submit">
+    </form>
+  </form>
+</body>
+
+</html>

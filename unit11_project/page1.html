@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="page1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Takes users back to homepage -->
+  <a href="index.html">Home</a>
+  
+  <h1>Fav Month and Social Networking Form</h1>
+
+  <!-- Form for user to fill out -->
+  <form action="inforecieved.html" method="get">
+    <label for="user">User:</label>
+    <input type="text" maxlength="30" id="user" name="user" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="pword" required><br><br>
+    <input type="hidden" name="userid" value="">
+    <fieldset id="Month">
+      <legend>What is your favorite month?</legend>
+      <input type="radio" id="January" name="fav_month" value="January">
+      <label for="January">January</label><br>
+      <input type="radio" id="February" name="fav_month" value="February">
+      <label for="February">February</label><br>
+      <input type="radio" id="March" name="fav_month" value="March">
+      <label for="March">March</label><br>
+      <input type="radio" id="April" name="fav_month" value="April">
+      <label for="April">April</label><br>
+      <input type="radio" id="May" name="fav_month" value="May">
+      <label for="May">May</label><br>
+      <input type="radio" id="June" name="fav_month" value="June">
+      <label for="June">June</label><br>
+      <input type="radio" id="July" name="fav_month" value="July">
+      <label for="July">July</label><br>
+      <input type="radio" id="August" name="fav_month" value="August">
+      <label for="August">August</label><br>
+      <input type="radio" id="September" name="fav_month" value="September">
+      <label for="September">September</label><br>
+      <input type="radio" id="October" name="fav_month" value="October">
+      <label for="October">October</label><br>
+      <input type="radio" id="November" name="fav_month" value="November">
+      <label for="November">November</label><br>
+      <input type="radio" id="December" name="fav_month" value="December">
+      <label for="December">December</label><br>
+    </fieldset>
+    <fieldset id="Social">
+      <legend>What is your favorite social networking site?</legend>
+      <input type="radio" id="Facebook" name="fav_social" value="Facebook">
+      <label for="Facebook">Facebook</label><br>
+      <input type="radio" id="Instagram" name="fav_social" value="Instagram">
+      <label for="Instagram">Instagram</label><br>
+      <input type="radio" id="Twitter" name="fav_social" value="Twitter">
+      <label for="Twitter">Twitter</label><br>
+      <input type="radio" id="Snapchat" name="fav_social" value="Snapchat">
+      <label for="Snapchat">Snapchat</label><br>
+      <input type="radio" id="Tiktok" name="fav_social" value="Tiktok">
+      <label for="Tiktok">Tiktok</label><br>
+      <input type="radio" id="Reddit" name="fav_social" value="Reddit">
+      <label for="Reddit">Reddit</label><br>
+      <input type="radio" id="Pinterest" name="fav_social" value="Pinterest">
+      <label for="Pinterest">Pinterest</label><br>
+      <input type="radio" id="Other" name="fav_social" value="Other">
+      <label for="Other">Other</label><br>
+    </fieldset>
+    <fieldset id="Shipping Address">
+      <legend>Shipping Address</legend>
+      <label for="address1">Address Line 1:</label>
+      <input type="text" id="address1" name="address1" required><br><br>
+      <label for="address2">Address Line 2:</label>
+      <input type="text" id="address2" name="address2"><br><br>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required><br><br>
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required><br><br>
+      <label for="zip">Zip:</label>
+      <input type="text" id="zip" name="zip" required><br><br>
+    </fieldset>
+    <input id="Submit" type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
